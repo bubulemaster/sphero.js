@@ -682,7 +682,8 @@ describe("Packet", function() {
         field.type = "signed";
         field.from = 0;
         field.to = 1;
-        var tmpVal = packet._parseField(field, new Buffer([0xFF, 0xFE, 0x00, 0x01]));
+        var tmpVal = packet._parseField(field,
+          new Buffer([0xFF, 0xFE, 0x00, 0x01]));
         expect(tmpVal).to.be.eql(-1);
       });
 

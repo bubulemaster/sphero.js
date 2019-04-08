@@ -332,7 +332,6 @@ describe("Sphero", function() {
 
     it("calls #_queuePromise with params (cmdPacket, promise)", function() {
       expect(sphero._queuePromise).to.be.calledOnce;
-      //expect(sphero._queuePromise).to.be.calledWith(cmdByteArray, callback);
     });
 
     it("calls @connection#write with param commandPacket", function() {

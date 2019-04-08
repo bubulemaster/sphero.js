@@ -273,7 +273,12 @@ describe("Custom Device Functions", function() {
       var opts = {
         event: "quaternions",
         mask2: 0xF0000000,
-        fields: ["quaternionQ0", "quaternionQ1", "quaternionQ2", "quaternionQ3"],
+        fields: [
+          "quaternionQ0",
+          "quaternionQ1",
+          "quaternionQ2",
+          "quaternionQ3"
+        ],
         sps: 2,
         remove: false
       };
