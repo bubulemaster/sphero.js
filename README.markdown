@@ -1,8 +1,15 @@
 # Sphero.js
 
-The official Orbotix JavaScript SDK module to programmatically control Sphero robots.
+This is fork of of discontinue official Sphero.js repository.
 
-[![Build Status](https://travis-ci.org/orbotix/sphero.js.svg?branch=master)](https://travis-ci.org/orbotix/sphero.js) [![Code Climate](https://codeclimate.com/github/orbotix/sphero.js/badges/gpa.svg)](https://codeclimate.com/github/orbotix/sphero.js) [![Test Coverage](https://codeclimate.com/github/orbotix/sphero.js/badges/coverage.svg)](https://codeclimate.com/github/orbotix/sphero.js/coverage)
+This integrate some PR on official repository :
+ - `#79` *Add instructions for Windows with WinUSB and Windows with Node.js Chakra* by hgwood
+ - `#88` *Feature/streaming quaternion* by scheunemann
+ - `#89` *Feature/enhance connection to multiple ble devices* by scheunemann
+ - `#86` *Bug/documentation*  by scheunemann
+ - `#91` *Bug/BLE packet parsing* by scheunemann
+
+/!\ NO SUPPORT PROVIDED
 
 ## Usage
 
@@ -255,5 +262,6 @@ The `grunt` command by itself will run both of the above tasks.
 ## License
 
 Copyright (c) 2015-2016 Orbotix.
+Copyright (c) 2017-2019 all contributors.
 
 Licensed under the MIT license. For more details, see the `LICENSE` file.
